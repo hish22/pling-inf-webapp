@@ -1,0 +1,12 @@
+#button{
+    background-color: rgb(242, 222, 212);
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translateY(-30px);
+}
+
+#button:hover{
+    opacity: 0.8;
+}
