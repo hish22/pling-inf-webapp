@@ -1,5 +1,6 @@
 import Button from "@/components/button/button";
-import Logo from "../components/logo/logo";
+import Logo from "../../components/logo/logo";
+import "./../layout.css";
 import InfoSvg from "@/imgs/infoSvg";
 import ProgSvg from "@/imgs/progSvg";
 import LinkSvg from "@/imgs/linkSvg";
@@ -15,10 +16,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
+    <>
+      <Logo />
+      <Button id="about-button" uri="/about" icon={<InfoSvg />}/>
+      <Button id="link-button" uri="/links" icon={<LinkSvg />}/>
+      <Button id="lang-button" uri="/lang" icon={<ProgSvg />}/>
+
         {children}
-        </body>
-    </html>
+    </>
   )
 }

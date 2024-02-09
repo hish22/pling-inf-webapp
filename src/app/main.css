@@ -1,0 +1,74 @@
+/* Keyframes for the typing animation */
+@keyframes typing {
+    from { width: 0;}
+    to { width: 100%;}
+}
+
+.reservedWords{
+    color: rgb(143, 5, 5);
+}
+
+.classRealName{
+    color: rgb(5, 5, 136);
+}
+
+.MethodRealName{
+    color: rgb(5, 5, 136);
+}
+
+.textTyped{
+    color: rgb(3, 97, 3);
+}
+
+.code{
+    font-size: 20pt;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 0.5s steps(3) forwards;
+}
+
+#HelloCodeDiv{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+#buttonNevg{
+    display: flex;
+    justify-content: center;
+    margin-top: -30vh;
+    animation: typing 0.5s steps(3) forwards;
+}
+
+#buttonNevg button{
+    font-size: 30px;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    color: white;
+    border-bottom: 3pt rgb(70, 70, 70) solid ;
+    border-right: 3pt rgb(70, 70, 70) solid ;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'pixelFont', Arial, Helvetica, sans-serif;
+}
+
+#buttonNevg button:hover{
+    transform: translateY(-10pt);
+
+}
+
+.code p{
+    margin: 0;
+}
+
+#line2{
+    margin-left: 20pt;
+}
+
+#line3{
+    margin-left: 40pt;
+}
+
+#line4{
+    margin-left: 40pt;
+}

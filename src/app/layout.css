@@ -1,7 +1,10 @@
+@font-face {
+    font-family: 'pixelFont';
+    src: url('../../public/fonts/Minecraft.ttf');
+}
+
 :root{
-    background-color: rgb(207, 163, 129);
-    margin: 0 auto;
-    padding: 0%;
-    text-align: center;
-    width: 100%;
+    background-color: black;
+    font-family: 'pixelFont', Arial, Helvetica, sans-serif;
+    color: aliceblue;
 }
