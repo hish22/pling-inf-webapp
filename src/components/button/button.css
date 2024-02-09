@@ -1,10 +1,25 @@
+
 #button{
-    background-color: rgb(242, 222, 212);
     display: inline-block;
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
     transform: translateY(-30px);
+}
+
+#about-button{
+    text-decoration: none;
+    color: white;
+}
+
+#link-button{
+    text-decoration: none;
+    color: white;
+}
+
+#lang-button{
+    text-decoration: none;
+    color: white;
 }
 
 #button:hover{

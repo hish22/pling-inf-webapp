@@ -1,12 +1,85 @@
-/* #about-button{
-    opacity: 0.5;
+@keyframes BackNforth {
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+
+#currentAboutButton{
+    animation: BackNforth 0.85s ease-in 0s infinite;
+}
+
+#levelIcon{
+    transform: translateY(-15pt);
+}
+
+#about-button{
+    font-size: 50px;
+    cursor: default;
 }
 
 #link-button{
+    opacity: 0.5;
+}
+
+#link-button:hover{
     opacity: 1;
 }
 
-
 #lang-button{
+    opacity: 0.5;
+}
+
+#lang-button:hover{
     opacity: 1;
-} */
+}
+
+#about-Page #about-page-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#about-Page #info h1{
+    color: rgb(97, 97, 184);
+    font-size: 30px;
+}
+
+#about-Page #info p{
+    font-size: 20px;
+}
+
+#about-Page #info p span{
+    color: rgb(97, 97, 184);
+}
+
+@media only screen and (max-width: 600px) {
+    #about-Page #about-page-div{
+        display: block;
+        text-align: center;
+    }
+
+    #char-img{
+        width: 200pt;
+        height: 200pt;
+        margin: auto 0;
+    }
+
+    #about-Page #info h1{
+        text-align: left;
+    }
+
+    #about-Page #info p{
+        text-align: left;
+    }
+
+}

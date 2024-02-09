@@ -6,13 +6,13 @@ import { SVGProps, useState } from "react";
 
 export default function Button(props: {
     uri: string,
-    icon: React.ReactNode,
+    title: string,
     id: string
 }) {
 
     return ( 
     <div id="button">
-        <Link href={props.uri} id={props.id}>{props.icon}</Link>
+        <Link href={props.uri} id={props.id}>{props.title}</Link>
     </div>
     )
 }
