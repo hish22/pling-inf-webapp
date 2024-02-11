@@ -7,12 +7,12 @@ import { SVGProps, useState } from "react";
 export default function Button(props: {
     uri: string,
     title: string,
-    id: string
+    class: string
 }) {
 
     return ( 
     <div id="button">
-        <Link href={props.uri} id={props.id}>{props.title}</Link>
+        <Link className={props.class} href={props.uri}>{props.title}</Link>
     </div>
     )
 }

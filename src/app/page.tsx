@@ -32,9 +32,9 @@ export default function Main() {
     return <>
     <div className="code" id="HelloCodeDiv">
         <div>
-            <p id="line1" > <span className="reservedWords">{`public class`}</span> <span className="classRealName">{`HelloWorld`}</span> {`{`}</p>
+            <p id="line1" > <span className="reservedWords">{`public class`}</span> <span className="classRealName">{`Pling`}</span> {`{`}</p>
             <p id="line2"><span className="reservedWords">{`public static void`}</span> <span className="MethodRealName">{`main`}</span>{`(String[] args)`} {`{`}</p>
-            <p id="line3">{`System.out.println(`}<span className="textTyped">{`"Hello, World!"`}</span>{`);`}</p>
+            <p id="line3">{`System.out.println(`}<span className="textTyped">{`"Press the button to play!"`}</span>{`);`}</p>
             <p id="line4">{`}`}</p>
             <p id="line5">{`}`}</p>
         </div>

@@ -7,17 +7,12 @@
     transform: translateY(-30px);
 }
 
-#about-button{
+.currentButton{
     text-decoration: none;
     color: white;
 }
 
-#link-button{
-    text-decoration: none;
-    color: white;
-}
-
-#lang-button{
+.uncrrentButton{
     text-decoration: none;
     color: white;
 }

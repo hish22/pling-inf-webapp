@@ -13,7 +13,7 @@
 
 }
 
-#currentAboutButton{
+#currentMainButton{
     animation: BackNforth 0.85s ease-in 0s infinite;
 }
 
@@ -21,23 +21,15 @@
     transform: translateY(-15pt);
 }
 
-#lang-button{
+.currentButton{
     font-size: 50px;
-    opacity: 1;
+    cursor: default;
 }
 
-#about-button{
+.uncrrentButton{
     opacity: 0.5;
 }
 
-#link-button{
-    opacity: 0.5;
-}
-
-#link-button:hover{
-    opacity: 1;
-}
-
-#lang-button:hover{
+.uncrrentButton:hover{
     opacity: 1;
 }

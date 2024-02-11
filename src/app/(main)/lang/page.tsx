@@ -1,3 +1,8 @@
-export default function lang() {
-    return <h1>Here is the lang page</h1>
+import Button from "@/components/button/button"
+import Image from "next/image"
+
+export default function Lang() {
+    return (<>
+
+    </>)
 }

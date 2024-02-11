@@ -1,12 +1,9 @@
-/* #about-button{
-    opacity: 1;
+#x-Account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#link-button{
-    opacity: 0.5;
+#x-Account a{
+    color: white;
 }
-
-
-#lang-button{
-    opacity: 1;
-} */
