@@ -7,3 +7,13 @@
 #x-Account a{
     color: white;
 }
+
+#github-Account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-Account a{
+    color: white;
+}

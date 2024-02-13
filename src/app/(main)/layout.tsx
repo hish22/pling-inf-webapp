@@ -15,10 +15,10 @@ export default function RootLayout({
 
   const path = usePathname();
 
-  const config : {uri: string, icon: string, title: string, alt: string}[] = [
-    { uri: "/about", icon: "/Images/BlueMonster.png", title: "LEVEL 1", alt: "BlueMonster"},
-    { uri: "/links", icon: "/Images/spicy.png", title: "LEVEL 2", alt:"spicy"},
-    { uri: "/lang", icon: "/Images/CuteMonster.png", title: "LEVEL 3", alt: "CuteMonster" }
+  const config : {id: number,uri: string, icon: string, title: string, alt: string}[] = [
+    { id: 1, uri: "/about", icon: "/Images/BlueMonster.png", title: "LEVEL 1", alt: "BlueMonster"},
+    { id: 2, uri: "/links", icon: "/Images/spicy.png", title: "LEVEL 2", alt:"spicy"},
+    { id: 3, uri: "/lang", icon: "/Images/CuteMonster.png", title: "LEVEL 3", alt: "CuteMonster" }
     
   ]
 
@@ -29,13 +29,13 @@ export default function RootLayout({
     config.map(function(button) {
       if(button.uri == path) {
        targetButton.unshift(
-          <div id="currentMainButton">
+          <div id="currentMainButton" key={button.id}>
             <Image id="levelIcon" src={button.icon} alt={button.alt} width={50} height={50} />
-            <Button class="currentButton" uri={button.uri} title={button.title}/>
+            <Button key={button.id} class="currentButton" uri={button.uri} title={button.title}/>
           </div>
         );
       } else {
-        targetButton.push(<Button class="uncrrentButton" uri={button.uri} title={button.title}/>)
+        targetButton.push(<Button key={button.id} class="uncrrentButton" uri={button.uri} title={button.title}/>)
       }
     });
 
@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
         <div>
             <Logo />
-            <div style={{textAlign: "center"}}>
+            <div style={{textAlign: "center"}} key={20}>
             {navButton()}
             <div>
               {children}

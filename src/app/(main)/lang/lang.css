@@ -1,43 +1,22 @@
-@keyframes BackNforth {
-    0%{
-        transform: translateY(-10px);
-    }
-
-    50%{
-        transform: translateY(10px);
-    }
-
-    100%{
-        transform: translateY(-10px);
-    }
-
-}
-
-#currentAboutButton{
-    animation: BackNforth 0.85s ease-in 0s infinite;
-}
-
-#levelIcon{
-    transform: translateY(-15pt);
-}
-
-#lang-button{
+#skills-text{
     font-size: 50px;
-    opacity: 1;
+    background-color: blueviolet;
+    display: inline;
+    padding: 10px;
+    user-select: none;
 }
 
-#about-button{
-    opacity: 0.5;
+.lang_style{
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
 }
 
-#link-button{
-    opacity: 0.5;
-}
-
-#link-button:hover{
-    opacity: 1;
-}
-
-#lang-button:hover{
-    opacity: 1;
+.lang_style:hover{
+    opacity: 0.8;
 }

@@ -52,6 +52,16 @@
     font-family: 'pixelFont', Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+    .code{
+        font-size: 15px;
+    }
+
+    #buttonNevg button{
+        font-size: 20px;
+    }
+}
+
 #buttonNevg button:hover{
     transform: translateY(-10pt);
 
