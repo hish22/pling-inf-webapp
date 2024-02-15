@@ -40,7 +40,7 @@ export default function Main() {
         </div>
     </div>
     <div id="buttonNevg">
-        <p style={{display: trigger ? "block" : "none", fontSize: 30 }}>Hell yeah let's beginn!</p>
+        <p style={{display: trigger ? "block" : "none", fontSize: 30 }}>Hell yeah {"let's"} beginn!</p>
         
         <button style={{display: trigger ? "none" : "block"}} onClick={handleRoute}>
             Begin
