@@ -17,7 +17,7 @@ export default function RootLayout({
 
   const config : {id: number,uri: string, icon: string, title: string, alt: string}[] = [
     { id: 1, uri: "/about", icon: "/Images/BlueMonster.png", title: "LEVEL 1", alt: "BlueMonster"},
-    { id: 2, uri: "/links", icon: "/Images/spicy.png", title: "LEVEL 2", alt:"spicy"},
+    { id: 2, uri: "/links", icon: "/Images/Spicy.png", title: "LEVEL 2", alt:"spicy"},
     { id: 3, uri: "/lang", icon: "/Images/CuteMonster.png", title: "LEVEL 3", alt: "CuteMonster" }
     
   ]
